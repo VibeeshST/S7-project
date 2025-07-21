@@ -1,0 +1,102 @@
+/* === GLOBAL === */
+body {
+  background: #f4f6f9;
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  color: #2c3e50;
+  margin: 0;
+  padding: 0;
+}
+
+/* === HOME WRAPPER === */
+.home-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 4rem 1rem;
+}
+
+/* === PAGE CONTAINER === */
+.page-container {
+  background: #ffffff;
+  padding: 3rem 2rem;
+  border-radius: 16px;
+  max-width: 900px;
+  width: 100%;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  text-align: center;
+}
+
+/* === HEADINGS === */
+h1 {
+  font-size: 2.5rem;
+  color: #2c3e50;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 1.6rem;
+  color: #3498db;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+/* === PARAGRAPHS === */
+p {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  color: #555;
+}
+
+/* === BUTTONS === */
+.btn {
+  display: inline-block;
+  background: #3498db;
+  color: white;
+  padding: 0.75rem 1.6rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  margin: 0.5rem;
+  box-shadow: 0 4px 10px rgba(52, 152, 219, 0.2);
+}
+
+.btn.primary {
+  background: linear-gradient(to right, #3498db, #2ecc71);
+}
+
+.btn:hover {
+  background: #ffffff;
+  color: #3498db;
+  border: 2px solid #3498db;
+}
+
+/* === NAV LIST === */
+.nav-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 1.5rem;
+}
+
+.nav-list li {
+  margin-bottom: 1rem;
+}
+
+.nav-list a {
+  color: #2c3e50;
+  text-decoration: none;
+  font-size: 1.05rem;
+  padding: 0.6rem 1rem;
+  display: inline-block;
+  border-radius: 6px;
+  transition: 0.3s ease;
+  background-color: #f8f9fa;
+}
+
+.nav-list a:hover {
+  background-color: #eaf2ff;
+  color: #3498db;
+  transform: scale(1.02);
+}
+
